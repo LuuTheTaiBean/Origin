@@ -1,544 +1,448 @@
-.fa-yin-yang {
-    background-color: #fff;
-    border-radius: 999px;
-  }
-  
-  .fa-solid {
-    color: #000;
-  }
-  
-  .btn:hover {
-    opacity: 0.9;
-  }
-  
-  /* ===============================COMMON=============================== */
-  
-  .h1 {
-    color: #fff;
-    font-size: 6rem;
-    font-family: Roboto;
-    font-weight: 500;
-    line-height: 1.3;
-  }
-  
-  .h2 {
-    color: #10375c;
-    font-size: 2.5rem;
-    font-family: Poppins;
-  }
-  
-  .p {
-    color: #fff;
-    font-size: 2rem;
-    font-family: Poppins;
-    line-height: 1.3;
-  }
-  
-  .btn {
-    background-color: #2e80ce;
-    color: #fff;
-    padding: 18px 44px 18px 44px;
-    border-radius: 999px;
-    font-size: 2.3rem;
-    font-family: Sora;
-  }
-  
-  /* ===============================HEADER=============================== */
-  
-  .header {
-    background-color: #10375c;
-    height: 800px;
-  }
-  
-  .header-top {
-    display: flex;
-    justify-content: space-between;
-    padding: 30px 0 0 0;
-  }
-  
-  .header__nav {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: 520px;
-    margin: 5px 0 0 0;
-  }
-  
-  .header__act {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: 200px;
-    margin: 5px 0 0 0;
-  }
-  
-  .header-bottom {
-    display: flex;
-    margin: 80px 0 0 50px;
-  }
-  
-  .header-bottom-right {
-    margin: 90px 0 0 95px;
-  }
-  
-  .header__p--first {
-    max-width: 615px;
-    margin: 20px 0 0 0;
-  }
-  
-  .header__btn {
-    display: flex;
-    margin: 30px 0 0 100px;
-  }
-  
-  .header__p--second {
-    display: flex;
-    align-items: center;
-    margin: 0 0 0 10px;
-  }
-  
-  /* ===============================WORK=============================== */
-  .work {
-    background-color: #f6fbff;
-    height: 800px;
-    margin: 160px 0 0 0;
-  }
-  /* ========================================= Kiểm tra ==== */
-  
-  .work-top {
-    padding: 127px 0 0 0;
-  }
-  
-  .work__h1 {
-    color: #2e80ce;
-  }
-  
-  .work__p--first {
-    color: #747677;
-  }
-  
-  .work-bottom {
-    display: flex;
-    justify-content: space-between;
-  }
-  
-  .work-bottom-column {
-    background-color: #fff;
-    width: 338px;
-    height: 378px;
-    border: 16px solid #e7f5fe;
-    margin: 50px 0 0 0;
-  }
-  
-  .work-text {
-    margin: 59px 0 0 31px;
-  }
-  
-  .work__title1,
-  .work__title2,
-  .work__title3 {
-    margin: 30px 0 0 0;
-  }
-  
-  .work__desc1,
-  .work__desc2,
-  .work__desc3 {
-    color: #575f66;
-    margin: 10px 0 0 0;
-    font-size: 1.5rem;
-    font-family: Sora;
-  }
-  
-  .work__link1,
-  .work__link2,
-  .work__link3 {
-    color: #2e80ce;
-    display: block;
-    margin: 30px 0 0 0;
-    font-size: 2rem;
-    font-family: Sora;
-  }
-  /* ===============================MEETING=============================== */
-  .meeting {
-    background-color: #3588d7;
-    height: 800px;
-    margin: 160px 0 0 0;
-  }
-  
-  .meeting-top {
-    display: flex;
-    justify-content: space-between;
-    padding: 93px 0 0 0;
-  }
-  
-  .meeting-item {
-    position: relative;
-  }
-  .animal {
-    position: absolute;
-    top: -10px;
-    left: -11px;
-  }
-  
-  .person {
-    background-color: #eaf6ff;
-    width: 262px;
-    height: 290px;
-  }
-  
-  .job-and-name {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 10px 0 0 0;
-  }
-  
-  .name {
-    font-family: Ephesis;
-    font-size: 3rem;
-    margin: 0 0 0 10px;
-    color: #fff;
-  }
-  
-  .meeting-bottom {
-    margin: 60px 0 0 351px;
-  }
-  
-  .meeting__p--first {
-    background-color: #fff;
-    color: #3588d7;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 230px;
-    height: 70px;
-    border-radius: 999px;
-    margin: 20px 134px 0 134px;
-    font-family: Sora;
-    font-size: 2.3rem;
-  }
-  
-  /* ===============================NEW=============================== */
-  
-  .new {
-    background-color: #59aff3;
-    height: 800px;
-    margin: 160px 0 0 0;
-  }
-  
-  .new-top {
-    padding: 50px 0 0 0;
-    text-align: center;
-  }
-  
-  .new__p--first {
-    margin: 20px 0 0 0;
-  }
-  
-  .new-center {
-    display: flex;
-    justify-content: space-between;
-    margin: 40px 0 0 0;
-  }
-  
-  .new-center__block {
-    width: 370px;
-    height: 470px;
-    background-color: #fff;
-    border-radius: 15px;
-  }
-  
-  .new__img {
-    width: 370px;
-    height: 250px;
-    border-radius: 15px;
-  }
-  
-  .new__day {
-    color: #746063;
-    font-size: 1.4rem;
-    font-family: Inder;
-    display: inline-flex;
-    align-items: center;
-    position: relative;
-    margin: 20px 0 0 30px;
-    padding: 0 0 10px 0;
-  }
-  
-  .new__day::before {
-    content: "";
-    display: inline-block;
-    margin-right: 10px;
-    width: 6px;
-    height: 6px;
-    border-radius: 50%;
-    background-color: #2e80ce;
-  }
-  
-  .new__day::after {
-    position: absolute;
-    left: 0;
-    bottom: 0;
-    content: "";
-    display: inline-block;
-    right: -27px;
-    background-color: #e2dfda;
-    height: 1px;
-    border-radius: 0.5px;
-  }
-  
-  .new__text {
-    margin: 30px 0 0 0;
-    color: #553f3f;
-    font-family: Inder;
-    width: 299px;
-    margin: 20px 0 0 30px;
-  }
-  
-  .new__read-more1,
-  .new__read-more2,
-  .new__read-more3 {
-    display: inline-block;
-    font-size: 1.6rem;
-    font-family: Inder;
-    padding: 15px 20px 15px 20px;
-    margin: 20px 0 0 30px;
-  }
-  
-  .new__control {
-    margin: 30px 0 0 0;
-    justify-content: center;
-  }
-  /* ===============================EXPERIENCE=============================== */
-  .experience {
-    background-color: #d9f8ff;
-    height: 380px;
-    margin: 160px 0 0 0;
-  }
-  
-  .experience__block {
-    display: flex;
-    padding: 93px 0 0 50px;
-  }
-  
-  .experience-left {
-    width: 300px;
-  }
-  
-  .name-students {
-    font-size: 2.4rem;
-    font-family: Roboto;
-    font-weight: 700;
-    margin: 14px 0 0 0;
-  }
-  
-  .job-students {
-    font-size: 1.4rem;
-    color: #bfbcb2;
-    font-family: Poppins;
-    margin: 10px 0 0 0;
-  }
-  
-  .dots {
-    display: flex;
-    margin: 20px 0 0 20px;
-    gap: 10px;
-  }
-  
-  .dot {
-    height: 6px;
-    width: 6px;
-    border-radius: 50%;
-    background-color: #5f5b53;
-  }
-  
-  .blockquote {
-    width: 776px;
-    color: #2e80ce;
-    font-size: 2.6rem;
-    font-style: italic;
-    font-family: Poppins;
-    margin: 6px 0 0 70px;
-    line-height: 1.5;
-  }
-  
-  /* ===============================DOWNLOAD=============================== */
-  .download {
-    background-color: #2e80ce;
-    height: 430px;
-    margin: 160px 0 0 0;
-  }
-  
-  .download__block {
-    display: flex;
-  }
-  
-  .download__img1 {
-    width: 284px;
-    height: 522px;
-    margin: -92px 0 0 60px;
-  }
-  
-  .download-right {
-    margin: 72px 0 0 138px;
-    width: 681px;
-  }
-  
-  .download__p--first {
-    font-size: 1.8rem;
-  }
-  
-  .download__app {
-    margin: 23px 0 0 0;
-  }
-  
-  .download__app-store {
-    margin: 0 0 0 60px;
-  }
-  /* ===============================THANK=============================== */
-  .thank {
-    background-color: #d9f8ff;
-    height: 350px;
-    margin: 160px 0 0 0;
-  }
-  
-  .thank-text {
-    padding: 80px 0 0 174px;
-    width: 1093px;
-  }
-  .thank__h1 {
-    color: #2e80ce;
-    position: relative;
-  }
-  
-  .thank__h1::after {
-    position: absolute;
-    display: inline-block;
-    background-color: #2e80ce;
-    border-radius: 0.5px;
-    content: "";
-    height: 1px;
-    left: 0;
-    bottom: 0;
-    right: 0;
-    width: 350px;
-    margin: 8px 0 0 263px;
-  }
-  
-  .thank__p {
-    color: #a9b3bb;
-    font-size: 2.3rem;
-    width: 840px;
-    text-align: center;
-    margin: 11px 0 0 0;
-  }
-  
-  .thank__btn {
-    font-size: 1.8rem;
-    padding: 14px 8px 14px 7px;
-    display: block;
-    width: 138px;
-    margin: 40px 0 0 350px;
-  }
-  /* ===============================FOOTER===============================  */
-  .footer {
-    background-color: #10375c;
-    height: 600px;
-    margin: 160px 0 0 0;
-  }
-  
-  .footer-top {
-    display: flex;
-    justify-content: space-between;
-    padding: 100px 0 0 0;
-  }
-  
-  .footer-top__column1 {
-    width: 327px;
-    font-family: Open Sans;
-    margin: -34px 0 0 0;
-  }
-  
-  .footer__p--first {
-    font-size: 1.6rem;
-    color: #a9b3bb;
-    margin: 35px 0 0 0;
-  }
-  
-  .p__bold {
-    font-size: 1.8rem;
-    font-weight: 800;
-  }
-  
-  .footer__p--second {
-    margin: 50px 0 0 0;
-  }
-  
-  .footer__p--third {
-    width: 350px;
-    margin: 10px 0 0 0;
-    font-size: 1.8rem;
-    font-weight: 300;
-  }
-  
-  .footer__subscribe {
-    display: flex;
-    margin: 30px 0 0 0;
-    align-items: center;
-  }
-  
-  .footer__p--fourth {
-    width: 170px;
-    font-size: 1.6rem;
-    border: 1px solid #406181;
-    padding: 12px 16px 12px 16px;
-    font-family: Open Sans;
-  }
-  .footer__btn {
-    font-size: 1.8rem;
-    padding: 11px 14px 11px 14px;
-    border-radius: 5px;
-    margin: 0 0 0 10px;
-  }
-  
-  .information {
-    display: flex;
-    margin: 19px 0 19px 0;
-    color: #fff;
-  }
-  
-  .text {
-    margin: 0 0 0 10px;
-  }
-  
-  .fa-phone,
-  .fa-envelope,
-  .fa-location-dot,
-  .fa-graduation-cap,
-  .fa-shop,
-  .fa-hotel,
-  .fa-music,
-  .fa-building-columns {
-    color: #fff;
-  }
-  
-  .footer__img--techcombank {
-    margin: 20px 0 0 0;
-    background-image: url();
-  }
-  
-  .footer-bottom {
-    width: 947px;
-    border-top: 1px solid #406181;
-    margin: 43px 98px 0 117px;
-  }
-  
-  .footer__p--eighth {
-    padding: 28px 0 42px;
-    color: #aab3ba;
-    text-align: center;
-    font-size: 1.4rem;
-    line-height: 1.86;
-  }
-  /* background khối meeting có vấn đề */
-  
+/* ===============================COMMON=============================== */
+
+/* ===============================HEADER=============================== */
+
+/* ===============================WORK=============================== */
+.work {
+  background-color: #f6fbff;
+  height: 800px;
+  margin: 160px 0 0 0;
+}
+/* ========================================= Kiểm tra ==== */
+
+.work-top {
+  padding: 127px 0 0 0;
+}
+
+.work__h1 {
+  color: #2e80ce;
+}
+
+.work__p--first {
+  color: #747677;
+}
+
+.work-bottom {
+  display: flex;
+  justify-content: space-between;
+}
+
+.work-bottom-column {
+  background-color: #fff;
+  width: 338px;
+  height: 378px;
+  border: 16px solid #e7f5fe;
+  margin: 50px 0 0 0;
+}
+
+.work-text {
+  margin: 59px 0 0 31px;
+}
+
+.work__title1,
+.work__title2,
+.work__title3 {
+  margin: 30px 0 0 0;
+}
+
+.work__desc1,
+.work__desc2,
+.work__desc3 {
+  color: #575f66;
+  margin: 10px 0 0 0;
+  font-size: 1.5rem;
+  font-family: Sora;
+}
+
+.work__link1,
+.work__link2,
+.work__link3 {
+  color: #2e80ce;
+  display: block;
+  margin: 30px 0 0 0;
+  font-size: 2rem;
+  font-family: Sora;
+}
+/* ===============================MEETING=============================== */
+.meeting {
+  background-color: #3588d7;
+  height: 800px;
+  margin: 160px 0 0 0;
+}
+
+.meeting-top {
+  display: flex;
+  justify-content: space-between;
+  padding: 93px 0 0 0;
+}
+
+.meeting-item {
+  position: relative;
+}
+.animal {
+  position: absolute;
+  top: -10px;
+  left: -11px;
+}
+
+.person {
+  background-color: #eaf6ff;
+  width: 262px;
+  height: 290px;
+}
+
+.job-and-name {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px 0 0 0;
+}
+
+.name {
+  font-family: Ephesis;
+  font-size: 3rem;
+  margin: 0 0 0 10px;
+  color: #fff;
+}
+
+.meeting-bottom {
+  margin: 60px 0 0 351px;
+}
+
+.meeting__p--first {
+  background-color: #fff;
+  color: #3588d7;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 230px;
+  height: 70px;
+  border-radius: 999px;
+  margin: 20px 134px 0 134px;
+  font-family: Sora;
+  font-size: 2.3rem;
+}
+
+/* ===============================NEW=============================== */
+
+.new {
+  background-color: #59aff3;
+  height: 800px;
+  margin: 160px 0 0 0;
+}
+
+.new-top {
+  padding: 50px 0 0 0;
+  text-align: center;
+}
+
+.new__p--first {
+  margin: 20px 0 0 0;
+}
+
+.new-center {
+  display: flex;
+  justify-content: space-between;
+  margin: 40px 0 0 0;
+}
+
+.new-center__block {
+  width: 370px;
+  height: 470px;
+  background-color: #fff;
+  border-radius: 15px;
+}
+
+.new__img {
+  width: 370px;
+  height: 250px;
+  border-radius: 15px;
+}
+
+.new__day {
+  color: #746063;
+  font-size: 1.4rem;
+  font-family: Inder;
+  display: inline-flex;
+  align-items: center;
+  position: relative;
+  margin: 20px 0 0 30px;
+  padding: 0 0 10px 0;
+}
+
+.new__day::before {
+  content: "";
+  display: inline-block;
+  margin-right: 10px;
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background-color: #2e80ce;
+}
+
+.new__day::after {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  content: "";
+  display: inline-block;
+  right: -27px;
+  background-color: #e2dfda;
+  height: 1px;
+  border-radius: 0.5px;
+}
+
+.new__text {
+  margin: 30px 0 0 0;
+  color: #553f3f;
+  font-family: Inder;
+  width: 299px;
+  margin: 20px 0 0 30px;
+}
+
+.new__read-more1,
+.new__read-more2,
+.new__read-more3 {
+  display: inline-block;
+  font-size: 1.6rem;
+  font-family: Inder;
+  padding: 15px 20px 15px 20px;
+  margin: 20px 0 0 30px;
+}
+
+.new__control {
+  margin: 30px 0 0 0;
+  justify-content: center;
+}
+/* ===============================EXPERIENCE=============================== */
+.experience {
+  background-color: #d9f8ff;
+  height: 380px;
+  margin: 160px 0 0 0;
+}
+
+.experience__block {
+  display: flex;
+  padding: 93px 0 0 50px;
+}
+
+.experience-left {
+  width: 300px;
+}
+
+.name-students {
+  font-size: 2.4rem;
+  font-family: Roboto;
+  font-weight: 700;
+  margin: 14px 0 0 0;
+}
+
+.job-students {
+  font-size: 1.4rem;
+  color: #bfbcb2;
+  font-family: Poppins;
+  margin: 10px 0 0 0;
+}
+
+.dots {
+  display: flex;
+  margin: 20px 0 0 20px;
+  gap: 10px;
+}
+
+.dot {
+  height: 6px;
+  width: 6px;
+  border-radius: 50%;
+  background-color: #5f5b53;
+}
+
+.blockquote {
+  width: 776px;
+  color: #2e80ce;
+  font-size: 2.6rem;
+  font-style: italic;
+  font-family: Poppins;
+  margin: 6px 0 0 70px;
+  line-height: 1.5;
+}
+
+/* ===============================DOWNLOAD=============================== */
+.download {
+  background-color: #2e80ce;
+  height: 430px;
+  margin: 160px 0 0 0;
+}
+
+.download__block {
+  display: flex;
+}
+
+.download__img1 {
+  width: 284px;
+  height: 522px;
+  margin: -92px 0 0 60px;
+}
+
+.download-right {
+  margin: 72px 0 0 138px;
+  width: 681px;
+}
+
+.download__p--first {
+  font-size: 1.8rem;
+}
+
+.download__app {
+  margin: 23px 0 0 0;
+}
+
+.download__app-store {
+  margin: 0 0 0 60px;
+}
+/* ===============================THANK=============================== */
+.thank {
+  background-color: #d9f8ff;
+  height: 350px;
+  margin: 160px 0 0 0;
+}
+
+.thank-text {
+  padding: 80px 0 0 174px;
+  width: 1093px;
+}
+.thank__h1 {
+  color: #2e80ce;
+  position: relative;
+}
+
+.thank__h1::after {
+  position: absolute;
+  display: inline-block;
+  background-color: #2e80ce;
+  border-radius: 0.5px;
+  content: "";
+  height: 1px;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  width: 350px;
+  margin: 8px 0 0 263px;
+}
+
+.thank__p {
+  color: #a9b3bb;
+  font-size: 2.3rem;
+  width: 840px;
+  text-align: center;
+  margin: 11px 0 0 0;
+}
+
+.thank__btn {
+  font-size: 1.8rem;
+  padding: 14px 8px 14px 7px;
+  display: block;
+  width: 138px;
+  margin: 40px 0 0 350px;
+}
+/* ===============================FOOTER===============================  */
+.footer {
+  background-color: #10375c;
+  height: 600px;
+  margin: 160px 0 0 0;
+}
+
+.footer-top {
+  display: flex;
+  justify-content: space-between;
+  padding: 100px 0 0 0;
+}
+
+.footer-top__column1 {
+  width: 327px;
+  font-family: Open Sans;
+  margin: -34px 0 0 0;
+}
+
+.footer__p--first {
+  font-size: 1.6rem;
+  color: #a9b3bb;
+  margin: 35px 0 0 0;
+}
+
+.p__bold {
+  font-size: 1.8rem;
+  font-weight: 800;
+}
+
+.footer__p--second {
+  margin: 50px 0 0 0;
+}
+
+.footer__p--third {
+  width: 350px;
+  margin: 10px 0 0 0;
+  font-size: 1.8rem;
+  font-weight: 300;
+}
+
+.footer__subscribe {
+  display: flex;
+  margin: 30px 0 0 0;
+  align-items: center;
+}
+
+.footer__p--fourth {
+  width: 170px;
+  font-size: 1.6rem;
+  border: 1px solid #406181;
+  padding: 12px 16px 12px 16px;
+  font-family: Open Sans;
+}
+.footer__btn {
+  font-size: 1.8rem;
+  padding: 11px 14px 11px 14px;
+  border-radius: 5px;
+  margin: 0 0 0 10px;
+}
+
+.information {
+  display: flex;
+  margin: 19px 0 19px 0;
+  color: #fff;
+}
+
+.text {
+  margin: 0 0 0 10px;
+}
+
+.fa-phone,
+.fa-envelope,
+.fa-location-dot,
+.fa-graduation-cap,
+.fa-shop,
+.fa-hotel,
+.fa-music,
+.fa-building-columns {
+  color: #fff;
+}
+
+.footer__img--techcombank {
+  margin: 20px 0 0 0;
+  background-image: url();
+}
+
+.footer-bottom {
+  width: 947px;
+  border-top: 1px solid #406181;
+  margin: 43px 98px 0 117px;
+}
+
+.footer__p--eighth {
+  padding: 28px 0 42px;
+  color: #aab3ba;
+  text-align: center;
+  font-size: 1.4rem;
+  line-height: 1.86;
+}
+/* background khối meeting có vấn đề */
