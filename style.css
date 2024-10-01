@@ -168,3 +168,115 @@ body {
   align-items: center;
   margin: 0 0 0 10px;
 }
+/* ===============================WORK=============================== */
+.work {
+  background-color: #f6fbff;
+  height: 800px;
+  margin-top: 160px;
+}
+
+.work-top {
+  padding-top: 127px;
+}
+
+.work__h1 {
+  color: #2e80ce;
+}
+
+.work__p--first {
+  color: #747677;
+}
+
+.work-bottom {
+  display: flex;
+  justify-content: space-between;
+}
+
+.work-bottom-column {
+  background-color: #fff;
+  width: 338px;
+  height: 378px;
+  border: 16px solid #e7f5fe;
+  margin-top: 50px;
+}
+
+.work-text {
+  margin: 59px 0 0 31px;
+}
+
+.work__title1,
+.work__title2,
+.work__title3 {
+  margin-top: 30px;
+}
+
+.work__desc1,
+.work__desc2,
+.work__desc3 {
+  color: #575f66;
+  margin-top: 10px;
+  font-size: 1.5rem;
+  font-family: Sora;
+}
+
+.work__link1,
+.work__link2,
+.work__link3 {
+  color: #2e80ce;
+  display: block;
+  margin-top: 30px;
+  font-size: 2rem;
+  font-family: Sora;
+}
+/* ===============================MEETING=============================== */
+.meeting {
+  background-color: #3588d7;
+  height: 650px;
+  margin-top: 160px;
+}
+
+.meeting-top {
+  display: flex;
+  justify-content: space-between;
+  padding: 93px 0 0 0;
+}
+
+.person {
+  border-radius: 999px;
+}
+
+.job-and-name {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px 0 0 0;
+}
+
+.name {
+  font-family: Ephesis;
+  font-size: 3rem;
+  margin: 0 0 0 10px;
+  color: #fff;
+}
+
+.meeting-bottom {
+  margin: 60px 0 0 351px;
+}
+
+.meeting__p--first {
+  background-color: #fff;
+  color: #3588d7;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 230px;
+  height: 70px;
+  border-radius: 999px;
+  margin: 20px 134px 0 134px;
+  font-family: Sora;
+  font-size: 2.3rem;
+}
+
+.meeting__p--first:hover {
+  opacity: 0.9;
+}
