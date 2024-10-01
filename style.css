@@ -1,0 +1,8 @@
+html {
+  background-color: rgb(90, 243, 43);
+}
+
+.icon:hover {
+  color: red;
+  background-color: red;
+}
